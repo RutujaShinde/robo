@@ -32,7 +32,7 @@ class App extends React.Component
 
     <div className="App">
         <h1>Robo Friend</h1>
-        <input type="text" placeholder="search robots" onChange={this.filteredcard}/>
+        <input type="text" placeholder="search card here" onChange={this.filteredcard}/>
        
         <CardList users={filteredRobot}/>
       
