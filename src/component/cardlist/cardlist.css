@@ -1,0 +1,6 @@
+.list{
+	display:grid;
+	/*flex-wrap: wrap;*/
+	justify-content: center;
+	grid-template-columns: 1fr 1fr 1fr;   /*how many columns likewise for row also*/
+}
